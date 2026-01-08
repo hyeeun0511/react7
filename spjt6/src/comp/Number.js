@@ -1,0 +1,18 @@
+import React,{useState} from 'react';
+
+// 컴퍼넌트 선언 - props값
+const Number = ({btnName, number}) => {
+    const [num1,setNum1] = useState(0);
+    const cntBtn1 = () => {
+      setNum1(num1 + 1);
+    }
+    return(
+        <>
+            <h4>숫자증가 컴퍼넌트 {number}</h4>
+            <div>{num1}</div>
+            <button onClick={cntBtn1}>{btnName}</button>
+        </>
+    )
+}
+
+export default Number;
