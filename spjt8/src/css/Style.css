@@ -1,0 +1,12 @@
+.root{
+    width: 500px; height: 100%; border: 1px solid black; padding: 20px;
+    margin: 0 auto;
+}
+
+h2{text-align: center;}
+
+form{margin: 20px 0px; border:1px solid rgb(94, 94, 94); padding: 10px; }
+
+.card{margin: 20px 0 ;}
+
+.btn{margin-right: 10px;}
